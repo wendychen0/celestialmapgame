@@ -30,6 +30,10 @@ public class BoxControl : MonoBehaviour
                 }
             }
         }
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            Destroy(box);
+        }
         /*if (Input.GetMouseButtonDown(0))
         {   
             //perform raycast to check if player is looking at object within pickuprange
